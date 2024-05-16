@@ -64,7 +64,7 @@ You can use`kjs-common`Add to your project as dependency.
 
 ### maven
 
-如果您使用的是 Maven，请将以下内容添加到您的 `pom.xml`In the file:
+If you are using Maven, add the following to your`pom.xml`In the file:
 
 ```xml
 

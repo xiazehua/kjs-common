@@ -101,7 +101,7 @@ If you would like to contribute code or make suggestions, please follow these st
 4.  push to branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-Please note that we are an open source community and we welcome contributions from anyone. Please read our[贡献指南](https://github.com/april-projects/april-norm/blob/main/README.md)。
+Please note that we are an open source community and we welcome contributions from anyone. Please read our[Contribution Guide](https://github.com/april-projects/april-norm/blob/main/README.md)。
 
 ## license
 

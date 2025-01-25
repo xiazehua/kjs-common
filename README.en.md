@@ -30,33 +30,33 @@
 
 ## Overview
 
-KJS-COMMON is a tool-based tool library developed by Java. The commonly used tools in project development aim to improve the development efficiency and code quality of Java developers.
+kjs-common is a tool library developed based on Java. It encapsulates tools commonly used in project development and aims to improve the development efficiency and code quality of Java developers.
 
-This project integrates excellent open source tools commonly used in projects:
+This project integrates the excellent open source tools commonly used in the project:
 
--   lombok (simplified physical class)
--   MapStruct (simplified parameter transmission)
+-   lombok (simplified entity class)
+-   mapstruct (simplifies parameter passing)
 
 Target:`无侵入性`，`轻量级`，`常用功能`，`无数次测试`，`不断完善`
 
-> Note: kjs-common is developed based on JDK1.8. If your JDK version is too low, please find the corresponding tool class, copy the relevant code, and use it.
+> Note: KJS-COMMON is developed based on JDK1.8. If your JDK version is too low, please find the corresponding tool class, copy the relevant code for use.
 
-## Function and characteristics
+## Functions and features
 
--   Provides many commonly used utility functions and extension functions, such as string operations, set operations, date and time operations, etc.
--   Stream processing tool classes and file tool classes are provided to improve the robustness and readability of the code.
--   All tool functions and tool classes have been strictly tested and documented, and can be used with confidence.
+-   Provide many commonly used tool functions and extensions, such as string operations, collection operations, date and time operations.
+-   Provides the Stream processing tool class and file tools to improve the robustness and readability of the code.
+-   All tool functions and tools are strictly tested and document, and can be used with confidence.
 
-## 发展
+## develop
 
-> This project is planned to support JDK 17 and above version in version 2.0, and the version within 2.0 is based on JDK 8 as the cornerstone, which means that the next 2.x version will not be compatible
-> It is recommended to use the version within 2.0 within JDK 17
+> This project plans to support JDK 17 and above in version 2.0. Versions below 2.0 are based on JDK 8. This means that future 2.X versions will not be compatible with projects below JDK 17. If
+> It is recommended that projects within JDK 17 or below use versions below 2.0
 
-## Exemplary example
+## Example
 
 Test case address:[Test case address](https://github.com/mobaijun/kjs-common/tree/main/src/test/java/com/mobaijun/common)
 
-> All dependent modules will be updated to the latest version simultaneously
+> All dependent modules will update the latest version synchronously
 
 ## quick start
 
@@ -93,20 +93,20 @@ This warehouse has been released simultaneously[Maven central warehouse](https:/
 
 ## contribute
 
-If you want to contribute code or make suggestions, follow the following steps:
+If you would like to contribute code or make suggestions, please follow these steps:
 
 1.  Fork this warehouse
 2.  Create your branch (`git checkout -b feature/AmazingFeature`)
-3.  Submit your changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the branch (`git push origin feature/AmazingFeature`)
-5.  Open a pull request
+3.  Submit your change (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-Please note that we are an open source community and we welcome contributions from anyone. Please read our[Contribution Guide](https://github.com/april-projects/april-norm/blob/main/README.md)。
+请注意，我们是一个开源社区，我们欢迎任何人的贡献。请在提交贡献之前仔细阅读我们的[Contribution Guide](https://github.com/april-projects/april-norm/blob/main/README.md)。
 
 ## license
 
-`kjs-common`It is based on Apache
-For the development of the license, please check the details[LICENSE](https://github.com/mobaijun/kjs-common/blob/main/LICENSE.txt)document.
+`kjs-common`is based on Apache
+Developed under license, please check for details[LICENSE](https://github.com/mobaijun/kjs-common/blob/main/LICENSE.txt)document.
 
 ## author
 
@@ -114,7 +114,7 @@ For the development of the license, please check the details[LICENSE](https://gi
 
 ## Documentation and examples
 
-We provide unit test[Example items](https://github.com/mobaijun/kjs-common/tree/main/src/test/java/com/mobaijun/common/test), To help you better understand and use the library.
+We provide unit test[Example items](https://github.com/mobaijun/kjs-common/tree/main/src/test/java/com/mobaijun/common/test), to help you better understand and use the library.
 
 ## trend
 
@@ -124,6 +124,6 @@ We provide unit test[Example items](https://github.com/mobaijun/kjs-common/tree/
 
 ![Repobeats analytics](https://repobeats.axiom.co/api/embed/c6b9508b383c2d1c0f1d01b6d3568d5240482f7c.svg "Repobeats analytics image")
 
-## Acknowledgments
+## Thank you
 
 Thank you for using`kjs-common`We will continue to work hard to provide developers with better tool libraries.
